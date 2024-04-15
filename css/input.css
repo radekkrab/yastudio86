@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=PT+Serif+Caption&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (min-width: 1900px) {
+     .price1 {
+    transform: translateX(-100%);
+}
+  }
+
+.price1.show {
+    transform: translateX(0);
+}

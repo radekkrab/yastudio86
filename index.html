@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/output.css">
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+  <title>YA Studio</title>
+</head>
+
+<body>
+
+  <!-- Скрытое бургер меню -->
+   <ul id="nav-menu" class="-translate-y-full transition-all duration-700 ease-in-out pointer-events-auto bg-black/80 text-center text-white text-2xl flex flex-col gap-4 items-center font-ptser font-medium fixed z-30 inset-x-0 w-full h-full pt-28">
+             
+          <li><a class="hover:text-rose-500" href="#about">О нас</a></li> 
+          <li><a class="hover:text-rose-500" href="#prices">Цены</a></li> 
+          <li><a class="hover:text-rose-500" href="#jobs">Работы</a></li>
+          <li><a class="hover:text-rose-500" href="#contacts">Контакты</a></li>
+   </ul>
+  <!-- Хедер всему голова -->
+  <header class="body-font bg-cover bg-[left_bottom] md:bg-center" style="background-image: url('./img/header-bg.jpg');">
+    <!-- Навигация пошла -->
+    <div id="nav-bar" class="fixed transition-all duration-500 w-screen z-40 left-0 right-0 px-5">
+      <div class="container mx-auto flex flex-wrap flex-row items-center py-5">
+        <a class="flex title-font font-medium items-center text-white">
+          <img class="w-16 rounded-full shadow-[0_0_30px_-2px_rgba(0,0,0,0.3)] shadow-rose-500" src="img/logo.jpg" alt="" srcset="">
+          <span class="hidden xl:block font-ptser ml-3 text-2xl font-medium"> YA STUDIO г.Нижневартовск</span>
+        </a>
+        <div id="nav-icon" class="nav-icon group md:hidden ml-auto space-y-2 z-30">
+          <div class="w-8 h-0.5 bg-white transition-transform ease-in-out"></div>
+          <div class="w-8 h-0.5 bg-white transition-transform ease-in-out"></div>
+          <div class="w-8 h-0.5 bg-white transition-transform ease-in-out"></div>
+        </div>
+       
+        <nav class="hidden md:block text-white text-2xl font-ptser font-medium ml-auto flex flex-wrap items-center justify-center">
+          <a class="mr-5 hover:text-gray-900" href="#about">О нас</a>
+          <a class="mr-5 hover:text-gray-900" href="#prices">Цены</a>
+          <a class="mr-5 hover:text-gray-900" href="#jobs">Работы</a>
+          <a class="mr-5 hover:text-gray-900" href="#contacts">Контакты</a>
+        </nav>
+      </div>
+    </div>
+    <div class="backdrop-brightness-50 backdrop-contrast-100 w-screen h-screen">
+      <section class="Hero flex items-center h-screen">
+        <div class="container mx-auto flex px-5 flex-col items-start md:items-end justify-center mt-6 sm:mt-0">
+          <div class="font-ptser text-white">
+            <h1 class="text-center sm:text-left md:text-right block xl:text-9xl md:text-8xl text-7xl mb-4 font-medium">YA STUDIO</h1>
+            <h2 class="text-center sm:text-left md:text-right block xl:text-6xl md:text-5xl text-4xl mb-4 font-medium">cоздаем красоту,<br> которая вдохновляет</h1>
+              
+
+                <div class="flex flex-wrap gap-4 justify-center md:justify-end mt-10 sm:mt-20">
+                  <button
+                    class="inline-flex text-gray-100 bg-rose-500 shadow-[0_0_30px_-2px_rgba(0,0,0,0.3)] shadow-rose-500 border-0 py-4 px-8 focus:outline-none hover:bg-rose-800 rounded text-2xl"><a href="#contacts">Записаться</a></button>
+                  <button
+                    class="inline-flex text-gray-700 bg-gray-100 border-0 py-4 px-8 focus:outline-none hover:bg-gray-200 rounded text-2xl"><a href="#about">Подробнее</a></button>
+                </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+  </header>
+
+   <!-- О нас -->
+   <section id="about" class="pricing font-ptser text-gray-700 body-font h-auto">
+    <div class="container mx-auto h-auto py-12 sm:py-24">
+        <h1 class="text-center text-4xl sm:text-7xl font-medium title-font mb-2">О нас</h1>
+        <h2 class="text-center text-xl sm:text-2xl font-medium title-font mt-8 sm:mt-12 mb-2">
+          В нашей студии вы можете воспользоваться следующими услугами:</h2>
+          <div class="flex flex-wrap mt-4 relative lg:justify-center">
+            <img class="w-1/2 sm:w-1/3 md:w-1/4 my-2 object-cover object-center" src="./img/about-img.jpg" alt="aboutimg">
+            <div class="text-base sm:text-2xl text-right font-semibold absolute lg:static lg:mt-14 inset-y-16 inset-x-9">
+              <p>✓ Афроплетение</p>
+              <p>✓ Архитектуры бровей</p>
+              <p>✓ Реконструкция волос</p>
+              <p>✓ Наращивание ресниц</p>
+              <p>✓ Окрашивание бровей</p>
+              <p>✓ Ламинирование ресниц</p>
+              
+              
+            </div>
+          </div>
+          <div class="flex flex-wrap mt-4">
+            <div class="p-4 md:w-1/3">
+              <div class="h-full shadow-md shadow-gray-300 border-2 border-gray-200 border-opacity-60 rounded-xl overflow-hidden">
+                <img class="xl:h-64 lg:h-48 md:h-36 w-full object-cover object-center" src="./img/nrestnits.jpg" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Наращивание ресниц</h1>
+                  <p class="leading-relaxed mb-3">Мы используем только качественные материалы и современные технологии, чтобы ваши ресницы выглядели идеально.</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="#prices">Узнать цену
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>1.2K
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>7
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="h-full shadow-md shadow-gray-300 border-2 border-gray-200 border-opacity-60 rounded-xl overflow-hidden">
+                <img class="xl:h-64 lg:h-48 md:h-36 w-full object-cover object-center" src="./img/lmrestnits.jpg" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Ламинирование ресниц</h1>
+                  <p class="leading-relaxed mb-3">Эта процедура поможет укрепить и улучшить внешний вид ваших ресниц, делая их более здоровыми и блестящими.</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="#prices">Узнать цену
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>1.2K
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>7
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="h-full shadow-md shadow-gray-300 border-2 border-gray-200 border-opacity-60 rounded-xl overflow-hidden">
+                <img class="xl:h-64 lg:h-48 md:h-36 w-full object-cover object-center" src="./img/rvolos.jpg" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Реконструкция волос</h1>
+                  <p class="leading-relaxed mb-3">Мы предлагаем различные виды процедур, которые помогут восстановить и укрепить ваши волосы, делая их здоровыми и красивыми.</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="#prices">Узнать цену
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>1.2K
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>7
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="h-full shadow-md shadow-gray-300 border-2 border-gray-200 border-opacity-60 rounded-xl overflow-hidden">
+                <img class="xl:h-64 lg:h-48 md:h-36 w-full object-cover object-center" src="./img/afro.jpg" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Афроплетение</h1>
+                  <p class="leading-relaxed mb-3">Это отличный способ разнообразить свой образ и добавить изюминку в свой стиль. Наши мастера помогут подобрать идеальный вариант афроплетения для вас.</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="#prices">Узнать цену
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>1.2K
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>7
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 hidden md:block md:w-1/3">
+              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-xl overflow-hidden">
+                <img class="md:h-auto w-1/2 mx-auto mt-2 object-cover object-center" src="./img/logo.jpg" alt="blog">
+                <div class="p-6">
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Мы рады предложить вам услуги студии красоты, где работают только опытные и квалифицированные специалисты. Мы гарантируем качество всех наших услуг и индивидуальный подход к каждому клиенту.</h1>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="#prices">Узнать цены
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>1.2K
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>7
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="h-full shadow-md shadow-gray-300 border-2 border-gray-200 border-opacity-60 rounded-xl overflow-hidden">
+                <img class="xl:h-64 lg:h-48 md:h-36 w-full object-cover object-center" src="./img/brovi.jpg" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Оформление и окрашивание бровей</h1>
+                  <p class="leading-relaxed mb-3">Наши специалисты помогут подобрать форму бровей, которая подойдет именно вам, а также окрасят их в нужный цвет.</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="#prices">Узнать цену
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>1.2K
+                    </span>
+                    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>7
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+     
+    </div>
+  </section>
+
+  <!-- Цены -->
+  <section id="prices" class="pricing font-ptser text-white body-font h-auto bg-cover bg-center" style="background-image: url('./img/price-bg.jpg')">
+    <div class="container mx-auto h-auto py-12 sm:py-24">
+      <div class="text-center">
+        <h1 class="text-4xl sm:text-7xl font-medium title-font mb-6">Цены</h1>
+      </div>
+      <div class="flex flex-wrap gap-3 md:gap-0 md:gap-y-3 sm:mt-14">
+
+        <div class="px-6 sm:px-2 xl:w-1/3 md:w-1/2 w-full">
+          <div class="h-full p-3 sm:py-6 flex flex-col overflow-hidden">
+            <h1 class="text-xl sm:text-5xl font-light leading-none text-left pb-4 mb-4 sm:pb-4 sm:mb-4 border-b border-gray-200">
+              РЕСНИЦЫ
+            </h1>
+            <div class="flex items-center justify-between mb-2">
+              <p>1-D</p><p>1800 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>2-D</p><p>2000 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>3-D</p><p>2400 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>4-D</p><p>2700 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p class="w-2/3">Снятие работы другого мастера<br><span class="text-sm">(с перенаращиванием бесплатно)</span></p><p>250 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Ламинирование ресниц</p><p>800 руб.</p>
+            </div>
+            <h1 class="text-xl sm:text-5xl font-light leading-none text-left pb-4 mb-4 mt-6 sm:pb-4 sm:mb-4 border-b border-gray-200">
+              НАНОПЛАСТИКА
+            </h1>
+            <div class="flex items-center justify-between mb-2">
+              <p>До плеч(30 см)</p><p>3500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>До подм.ям(40 см)</p><p>4500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Ниже лопаток(50 см)</p><p>5500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>До талии(60 см)</p><p>6500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Ниже талии(70 см)</p><p>7500 руб.</p>
+            </div>
+
+            
+
+          </div>
+        </div>
+
+        <div class="px-6 sm:px-2 xl:w-1/3 md:w-1/2 w-full">
+          <div class="h-full p-3 sm:py-6 flex flex-col overflow-hidden">
+            <h1 class="text-xl sm:text-5xl font-light leading-none text-left pb-4 mb-4 sm:pb-4 sm:mb-4 border-b border-gray-200">
+              КЕРАТИН
+            </h1>
+            <div class="flex items-center justify-between mb-2">
+              <p>До плеч(30 см)</p><p>2500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>До подм.ям(40 см)</p><p>3500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Ниже лопаток(50 см)</p><p>4500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>До талии(60 см)</p><p>5500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Ниже талии(70 см)</p><p>6500 руб.</p>
+            </div>
+            <h1 class="text-xl sm:text-5xl font-light leading-none text-left pb-4 mb-4 mt-6 sm:pb-4 sm:mb-4 border-b border-gray-200">
+              БОТОКС
+            </h1>
+            <div class="flex items-center justify-between mb-2">
+              <p>До плеч(30 см)</p><p>2000 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>До подм.ям(40 см)</p><p>3000 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Ниже лопаток(50 см)</p><p>4000 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>До талии(60 см)</p><p>5000 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Ниже талии(70 см)</p><p>6000 руб.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="px-6 sm:px-2 xl:w-1/3 md:w-1/2 w-full">
+          <div class="h-full p-3 sm:py-6 flex flex-col overflow-hidden">
+            <h1 class="text-xl sm:text-5xl font-light leading-none text-left pb-4 mb-4 sm:pb-4 sm:mb-4 border-b border-gray-200">
+              ХОЛОДНОЕ ВОССТАНОВЛЕНИЕ
+            </h1>
+            <div class="flex items-center justify-between mb-2">
+              <p>До плеч(30 см)</p><p>1500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>До подм.ям(40 см)</p><p>2500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Ниже лопаток(50 см)</p><p>3500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>До талии(60 см)</p><p>4000 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Ниже талии(70 см)</p><p>5000 руб.</p>
+            </div>
+            <h1 class="text-xl sm:text-5xl font-light leading-none text-left pb-4 mb-4 mt-6 sm:pb-4 sm:mb-4 border-b border-gray-200">
+              ДОПОЛНИТЕЛЬНО
+            </h1>
+            <div class="flex items-center justify-between mb-2">
+              <p>Прикорневой объём</p><p>3000 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>За каждые 5 см</p><p>+500 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Густота</p><p>+500-1000 руб.</p>
+            </div>
+            <div class="flex items-center justify-between mb-2">
+              <p>Сложность</p><p>+500 руб.</p>
+            </div>
+            
+          </div>
+        </div>
+
+       
+
+      </div>
+      <button
+        class="block mx-auto bg-rose-500 shadow-[0_0_30px_-2px_rgba(0,0,0,0.3)] shadow-rose-500 border-0 py-4 px-8 focus:outline-none hover:bg-rose-800 rounded text-2xl"><a href="#jobs">Примеры работ</a></button>
+    </div>
+  </section>
+
+  <!-- Работы -->
+
+  <section id="jobs" class="pricing font-ptser text-gray-700 body-font h-auto">
+    <div class="container mx-auto h-auto pt-12 sm:pt-24">
+        <h1 class="text-center text-4xl sm:text-7xl font-medium title-font mb-2">Работы</h1>
+        <div class="flex flex-wrap mt-4">
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <img alt="gallery" class="w-full h-full object-cover object-center rounded-xl" src="img/1.jpg">
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <img alt="gallery" class="w-full h-full object-cover object-center rounded-xl" src="img/2.jpg">
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <img alt="gallery" class="w-full h-full object-cover object-center rounded-xl" src="img/3.jpg">
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <img alt="gallery" class="w-full h-full object-cover object-center rounded-xl" src="img/4.jpg">
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <img alt="gallery" class="w-full h-full object-cover object-center rounded-xl" src="img/5.jpg">
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <img alt="gallery" class="w-full h-full object-cover object-center rounded-xl" src="img/6.jpg">
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <img alt="gallery" class="w-full h-full object-cover object-center rounded-xl" src="img/7.jpg">
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <img alt="gallery" class="w-full h-full object-cover object-center rounded-xl" src="img/8.jpg">
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <img alt="gallery" class="w-full h-full object-cover object-center rounded-xl" src="img/9.jpg">
+          </div>
+          
+        </div>
+     
+    </div>
+  </section>
+
+
+  <!-- Контакты -->
+  <section id="contacts" class="font-ptser text-white h-auto xl:h-screen" style="background-image: url('./img/price-bg.jpg')">
+    <div class="container px-4 mx-auto mt-10 sm:mt-20 py-12 sm:py-28">
+      <div class="flex flex-wrap justify-center text-center">
+                
+        <div class="mt-6 xl:w-1/2 xl:pr-6">
+          <h1 class="block text-4xl sm:text-7xl font-medium title-font mb-2">Контакты</h1>
+          <h2 class="text-xl sm:text-2xl mb-10">Кликните по значку, чтобы написать мне в мессенджере</h2>
+          <div class="flex justify-center mx-1.5 mb-6">
+              <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-green-500" href="https://wa.me/79800007808">
+                <svg class="w-16 h-16" id="Capa_1" style="enable-background:new 0 0 58 58;" version="1.1" viewBox="0 0 58 58" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M0,58l4.988-14.963C2.457,38.78,1,33.812,1,28.5C1,12.76,13.76,0,29.5,0S58,12.76,58,28.5   S45.24,57,29.5,57c-4.789,0-9.299-1.187-13.26-3.273L0,58z" style="fill:#2CB742;"/><path d="M47.683,37.985c-1.316-2.487-6.169-5.331-6.169-5.331c-1.098-0.626-2.423-0.696-3.049,0.42   c0,0-1.577,1.891-1.978,2.163c-1.832,1.241-3.529,1.193-5.242-0.52l-3.981-3.981l-3.981-3.981c-1.713-1.713-1.761-3.41-0.52-5.242   c0.272-0.401,2.163-1.978,2.163-1.978c1.116-0.627,1.046-1.951,0.42-3.049c0,0-2.844-4.853-5.331-6.169   c-1.058-0.56-2.357-0.364-3.203,0.482l-1.758,1.758c-5.577,5.577-2.831,11.873,2.746,17.45l5.097,5.097l5.097,5.097   c5.577,5.577,11.873,8.323,17.45,2.746l1.758-1.758C48.048,40.341,48.243,39.042,47.683,37.985z" style="fill:#FFFFFF;"/></g><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/><g/></svg>
+              </a>
+
+              <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="https://vk.com/yastudio86">
+                <svg class="w-16 h-16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#4489c8;}.cls-2{fill:#fff;}</style></defs><title/><g data-name="32-vk" id="_32-vk"><rect class="cls-1" height="64" rx="11.2" ry="11.2" width="64"/><path class="cls-2" d="M9.62,19.77H17.3a.79.79,0,0,1,.74.51c.85,2.19,4.38,10.76,7.61,11.46,2.4,0,1.55-11.4-1.5-11.4-.8,0,1.42-1.42,1.57-1.48a16.38,16.38,0,0,1,8.66,0c1.53.64,1.79,2.43,1.83,3.95s-1.7,8,.59,8.7c3,.92,6.86-8.49,7.76-10.8a.79.79,0,0,1,.74-.5h8.55a.8.8,0,0,1,.74,1.11,74.74,74.74,0,0,1-6.31,11.52,1.59,1.59,0,0,0,.16,2C51,37.58,58,45.34,54,45.34H45.37a1.57,1.57,0,0,1-1.18-.53c-1.34-1.48-5.24-5.6-7-5.27-1.46.27-1.6,2.75-1.53,4.37a1.6,1.6,0,0,1-1.48,1.68c-1.53.09-3.62.13-3.81.12-6.1-.39-9.71-4.46-13.16-9A56.33,56.33,0,0,1,8.86,20.83.81.81,0,0,1,9.62,19.77Z"/></g></svg>
+              </a>
+
+              <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="viber://chat?number=%2B79800007808">
+                <svg class="w-16 h-16" id="Social_Icons" style="enable-background:new 0 0 124 124;fill:#fff;border-radius: 50%;" version="1.1" viewBox="0 0 124 124" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x34__stroke"><g id="Viber_1_"><rect   height="128" width="128"/><path  d="M71.4,44.764c2.492,0.531,4.402,1.478,6.034,3.006    c2.1,1.983,3.251,4.383,3.757,7.831c0.342,2.248,0.202,3.132-0.595,3.865c-0.746,0.682-2.125,0.707-2.96,0.063    c-0.607-0.455-0.797-0.935-0.936-2.236c-0.164-1.731-0.468-2.943-0.987-4.067c-1.113-2.387-3.074-3.625-6.388-4.029    c-1.556-0.19-2.024-0.366-2.53-0.96c-0.924-1.099-0.569-2.88,0.708-3.537c0.481-0.24,0.683-0.265,1.746-0.202    C69.908,44.536,70.882,44.65,71.4,44.764z M68.706,35.227c7.679,1.124,13.624,4.686,17.521,10.471    c2.189,3.259,3.555,7.086,4.023,11.191c0.164,1.503,0.164,4.244-0.013,4.699c-0.165,0.429-0.696,1.01-1.151,1.25    c-0.493,0.253-1.543,0.227-2.125-0.076c-0.974-0.493-1.265-1.276-1.265-3.398c0-3.271-0.848-6.72-2.315-9.398    c-1.67-3.057-4.099-5.583-7.059-7.339c-2.543-1.516-6.3-2.64-9.728-2.918c-1.24-0.101-1.923-0.354-2.391-0.897    c-0.721-0.821-0.797-1.933-0.19-2.855C64.67,34.937,65.682,34.772,68.706,35.227z M38.914,27.434    c0.443,0.152,1.126,0.505,1.518,0.758c2.403,1.592,9.095,10.143,11.284,14.412c1.252,2.438,1.67,4.244,1.278,5.583    c-0.405,1.44-1.075,2.198-4.074,4.61c-1.202,0.972-2.328,1.97-2.505,2.236c-0.455,0.657-0.822,1.945-0.822,2.855    c0.013,2.109,1.379,5.937,3.175,8.88c1.391,2.286,3.883,5.216,6.35,7.465c2.897,2.653,5.452,4.459,8.337,5.886    c3.707,1.844,5.971,2.311,7.628,1.541c0.417-0.19,0.86-0.442,0.999-0.556c0.126-0.114,1.101-1.301,2.163-2.615    c2.049-2.577,2.517-2.994,3.922-3.474c1.784-0.606,3.605-0.442,5.44,0.493c1.392,0.72,4.428,2.602,6.388,3.966    c2.581,1.806,8.096,6.303,8.843,7.2c1.315,1.617,1.543,3.688,0.658,5.975c-0.936,2.412-4.579,6.934-7.122,8.867    c-2.302,1.743-3.934,2.412-6.085,2.513c-1.771,0.088-2.505-0.063-4.769-0.998C63.76,95.718,49.579,84.805,38.32,69.811    c-5.882-7.831-10.361-15.953-13.422-24.378c-1.784-4.913-1.872-7.048-0.405-9.562c0.633-1.061,3.327-3.688,5.288-5.153    c3.264-2.425,4.769-3.322,5.971-3.575C36.574,26.966,38.004,27.105,38.914,27.434z M67.833,26.07    c4.352,0.543,7.868,1.591,11.727,3.474c3.795,1.857,6.224,3.613,9.437,6.808c3.011,3.019,4.681,5.305,6.452,8.854    c2.467,4.951,3.871,10.838,4.111,17.317c0.089,2.21,0.025,2.703-0.481,3.335c-0.961,1.225-3.074,1.023-3.795-0.354    c-0.228-0.455-0.291-0.846-0.367-2.615c-0.127-2.716-0.316-4.471-0.696-6.568c-1.493-8.223-5.44-14.791-11.74-19.503    c-5.25-3.941-10.677-5.861-17.786-6.278c-2.404-0.139-2.821-0.227-3.365-0.644c-1.012-0.796-1.063-2.665-0.089-3.537    c0.595-0.543,1.012-0.619,3.074-0.556C65.392,25.842,66.973,25.969,67.833,26.07z M64,0c35.346,0,64,28.654,64,64    s-28.654,64-64,64S0,99.346,0,64S28.654,0,64,0z" fill="#7F4DA0" fill-rule="evenodd" id="Viber"/></g></g></svg>
+              </a>
+          </div>
+
+
+          <div class="flex gap-4 mb-4 sm:mb-0 sm:justify-center items-center">
+            <a href="tel:+79800007808"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	              width="40px" height="40px" viewBox="0 0 477.156 477.156" style="enable-background:new 0 0 477.156 477.156;"
+	                      xml:space="preserve" fill="#FFFFFF">
+                <g>
+	                <path d="M475.009,380.316l-2.375-7.156c-5.625-16.719-24.062-34.156-41-38.75l-62.688-17.125c-17-4.625-41.25,1.594-53.688,14.031
+              l-22.688,22.688c-82.453-22.28-147.109-86.938-169.359-169.375L145.9,161.94c12.438-12.438,18.656-36.656,14.031-53.656
+              l-17.094-62.719c-4.625-16.969-22.094-35.406-38.781-40.969L96.9,2.19c-16.719-5.563-40.563,0.063-53,12.5L9.962,48.659
+              C3.899,54.69,0.024,71.94,0.024,72.003c-1.187,107.75,41.063,211.562,117.281,287.781
+              c76.031,76.031,179.454,118.219,286.891,117.313c0.562,0,18.312-3.813,24.375-9.845l33.938-33.938
+              C474.946,420.878,480.571,397.035,475.009,380.316z"/>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          <g>
+          </g>
+          </svg></a>
+            <p class="text-xl sm:text-2xl">+7(980)000-78-08</p>
+          </div>
+
+          <div class="flex gap-4 mb-4 sm:mb-0 sm:justify-center items-center">
+            <a href="tel:+79800007808"><svg id="Layer_1" width="40px" height="45px" fill="#FFFFFF" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="2 1 28 28" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M16,2C9.53,2,4.28,7.25,4.28,13.72c0,12.19,11.25,16.17,11.36,16.22C15.76,29.98,15.87,30,16,30c0.12,0,0.24-0.02,0.35-0.06  c0.12-0.04,11.37-4.02,11.37-16.22C27.72,7.25,22.46,2,16,2z M16,19.87c-3.43,0-6.21-2.79-6.21-6.2c0-3.43,2.79-6.21,6.21-6.21  c3.42,0,6.2,2.79,6.2,6.21C22.2,17.08,19.42,19.87,16,19.87z"/></svg></a>
+            <p class="text-xl text-left sm:text-2xl">Наш адрес: г.Нижневартовск, ул.Кузоваткина, д.26.</p>
+          </div>
+
+          <div class="flex gap-4 sm:justify-center items-center">
+            <a href="tel:+79800007808"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="40px" height="40px" fill="#fff" viewBox="0 0 485.213 485.212" style="enable-background:new 0 0 485.213 485.212;"
+              xml:space="preserve">
+           <g>
+             <path d="M242.607,0C108.629,0,0.001,108.628,0.001,242.606c0,133.976,108.628,242.606,242.606,242.606
+               c133.978,0,242.604-108.631,242.604-242.606C485.212,108.628,376.585,0,242.607,0z M257.771,454.116v-29.557h-30.327v29.557
+               c-104.925-7.458-188.883-91.419-196.346-196.344h29.554v-30.327H31.098c7.463-104.928,91.421-188.886,196.346-196.349v29.554
+               h30.327V31.097c104.926,7.462,188.882,91.421,196.344,196.349h-29.552v30.327h29.552
+               C446.652,362.697,362.696,446.658,257.771,454.116z M354.226,178.163c2.072,3.615,0.83,8.266-2.782,10.368l-80.092,46.227
+               c0.691,2.577,1.582,5.066,1.582,7.848c0,16.762-13.581,30.324-30.326,30.324c-16.75,0-30.327-13.562-30.327-30.324l-82.299-47.503
+               c-7.257-4.203-9.743-13.474-5.554-20.729c4.174-7.285,13.459-9.771,20.715-5.565l82.775,47.798
+               c4.411-2.487,9.239-4.324,14.69-4.324c8.471,0,16.092,3.494,21.604,9.122l79.648-46.024
+               C347.416,173.277,352.064,174.521,354.226,178.163z"/>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           </svg></a>
+            <p class="text-xl text-left sm:text-2xl">Время работы: ежедневно, с 10:00 до 21:00</p>
+          </div>
+
+        </div>
+
+        <div class="mt-10 w-full xl:w-1/2 xl:mt-6 xl:pl-6" style="position:relative;overflow:hidden;">
+            <iframe class="mx-auto w-full" src="https://yandex.ru/map-widget/v1/?ll=76.551807%2C60.947677&mode=whatshere&whatshere%5Bpoint%5D=76.549003%2C60.947704&whatshere%5Bzoom%5D=17&z=16" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;border-radius: 15px;"></iframe>  
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- CTA -->
+
+
+<!-- Футер -->
+<footer class="text-gray-600 font-ptser body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      <img class="w-10" src="img/logo.jpg" alt="logo">
+      <span class="ml-3 text-xl">Студия красоты YA STUDIO</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 YaStudo —
+      <a href="https://vk.com/yastudio86" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@yastudio86</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-500">
+        <img class="w-16" src="img/f1.png" alt="f1">
+      </a>
+      <a class="text-gray-500">
+        <img class="w-16" src="img/f2.png" alt="f2">
+      </a>
+      <a class="text-gray-500">
+        <img class="w-16" src="img/f3.png" alt="f3">
+      </a>
+    </span>
+  </div>
+</footer>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+ 
+</body>
+
+</html>
